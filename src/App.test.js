@@ -3,6 +3,6 @@ import Dog from './components/Dog.js';
 
 test('renders button for render image', () => {
   render(<Dog />);
-  const linkElement = screen.getByText("Show Me a Doggo");
+  const linkElement = screen.getByText("Mostrar um Doguinho!");
   expect(linkElement).toBeInTheDocument();
 });

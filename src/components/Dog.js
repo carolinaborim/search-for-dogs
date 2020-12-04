@@ -13,7 +13,7 @@ class Dog extends React.Component {
   render() {
     return (
       <div className="container">
-        <button className="ui violet basic button btn" onClick={this.onButtonClick.bind(this)}>Show Me a Doggo </button>
+        <button className="ui violet basic button btn" onClick={this.onButtonClick.bind(this)}> Mostrar um Doguinho! </button>
         <div className="image">
             <img className="ui medium circular image" alt={this.state.image} src={this.state.image} />
         </div>
